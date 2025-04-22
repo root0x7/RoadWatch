@@ -16,6 +16,16 @@ class charsetscontroller{
 			})		
 		}
 	}
+	async create(req,res){
+		try{
+			Charsets.create({
+
+			});
+		}
+		catch(error){
+
+		}
+	}
 }
 
 
